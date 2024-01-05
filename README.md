@@ -1,8 +1,8 @@
-# AI Application Development for Javascript Developers 🤖
+# Practical AI Application Development for Javascript Developers 🤖
 An open-source course for javascript developers to get into AI Product development with demos, roadmaps, and notebooks.
 
 ---
-I built this course hoping it would be an excellent guide for aspiring AI developers and a valuable resource for the wider JavaScript developer community.
+I created this course hoping it would be an excellent guide for aspiring AI developers and a valuable resource for the wider JavaScript developer community.
 
 The course is divided into 6 modules, as shown below.
 ![image](https://github.com/thestriver/ai-for-javascript-course/assets/16709708/95237a88-63e2-48b6-a2c6-fc45ff49fe7b)
@@ -83,11 +83,10 @@ With Next.js, developers can enjoy a streamlined development process, making it 
 
 ### **Module** **Project:** Setting up a development environment
 
-<aside>
-💡 **Note:** Feel free to skip this if you already know how to do this.
+>💡 Note: Feel free to skip this if you already know how to do this.
 Note that this setup might not always be current, for the latest setup instructions, please visit [https://nodejs.org/en](https://nodejs.org/en) and [https://nextjs.org/docs/getting-started/installation](https://nextjs.org/docs/getting-started/installation)
 
-</aside>
+
 
 Let's roll up our sleeves and get our hands dirty. 
 
@@ -188,7 +187,7 @@ Integrating LLMs into a JavaScript environment involves interacting with these m
 >💡 Note:
 In the next chapter, we will further explore popular open-source AI models and show how you can integrate them into your JS apps via APIs and external libraries.
 
-## Module Project**: Building an AI Content Generator with Node.js and OpenAI GPT 3.5 /Mistral 7B Instruct v0.2**
+## Module Project: Building an AI Content Generator with Node.js and OpenAI GPT 3.5 /Mistral 7B Instruct v0.2
 
 In the landscape of modern web development, the integration of AI through Large Language Models (LLMs) like GPT-3.5 is not just a trend but an evolution. 
 
@@ -329,12 +328,10 @@ Run your application using **`node app.js`** and see the AI-generated content in
 
 ### Getting Started with Mistral AI and Node.js
 
-<aside>
-💡 Running the example below requires a Mistral AI API key.
-
+>💡 Running the example below requires a Mistral AI API key.
 Visit [https://docs.mistral.ai/#api-access](https://docs.mistral.ai/#api-access) for instructions on how to get one.
 
-</aside>
+
 
 1. Create a New Node.js Project
 
@@ -432,7 +429,7 @@ Open-source AI models offer a treasure trove of possibilities for developers. Th
 
 [https://huggingface.co/blog/llama2#why-llama-2](https://huggingface.co/blog/llama2#why-llama-2)
 
-</aside>
+
 
 There are also other open-source models like BLOOM and Alpaca. You can check out the Sapling AI’s LLM index for a list of other ****Open Source LLMs:**** [https://sapling.ai/llm/index#:~:text=Link-,Open Source,-LLMs](https://sapling.ai/llm/index#:~:text=Link-,Open%20Source,-LLMs)
 
@@ -507,10 +504,9 @@ Effectively managing responses from AI models is crucial. This involves parsing 
 
 This blog post will guide you through setting up a simple React application using Vite, integrating OpenAI's Dall-E API to generate images, and displaying them using a form-based UI.
 
-<aside>
-💡 We will be using OpenAI Documentation on Image Generation: [https://platform.openai.com/docs/api-reference/images/create](https://platform.openai.com/docs/api-reference/images/create)
+>💡 We will be using OpenAI Documentation on Image Generation: [https://platform.openai.com/docs/api-reference/images/create](https://platform.openai.com/docs/api-reference/images/create)
 
-</aside>
+
 
 ### Setting Up the Project
 
@@ -586,11 +582,10 @@ This blog post will guide you through setting up a simple React application usin
     export default App;
     ```
     
-    <aside>
-    💡 Note that the button text changes based on the API response status so we can inform the user of what’s going on.
+    >💡 Note that the button text changes based on the API response status so we can inform the user of what’s going on.
     `{isLoading ? 'Generating...' : 'Generate Image'}`
     
-    </aside>
+    
     
 - **API Endpoint Alternative**
     
@@ -696,7 +691,7 @@ Incorporating RAG into a Next.js application involves setting up the backend to 
 - **Frontend Integration**: Create UI components to take user documents and queries, communicate with the backend, and display the generated responses.
 - **Backend Setup**: Implement the logic to retrieve data from the vector database and pass it to the RAG model for response generation.
 
-## Module Project**: Building a Research Assistant Tool with Next.js and Langchain**
+## Module Project: Building a Research Assistant Tool with Next.js and Langchain**
 
 Imagine having a research assistant at your fingertips, one who can understand and provide insights from any PDF document you provide. This is not just a figment of imagination anymore; it's a reality we're going to build together using Next.js, Langchain, and vector databases like MemoryVectorStore and Pinecone.
 
@@ -799,10 +794,9 @@ export async function POST(request: NextRequest) {
 
 In this setup, the Langchain **`RetrievalQAChain`** uses the MemoryVectorStore for efficient retrieval of relevant document sections, which the **`ChatOpenAI`** model then summarizes.
 
-<aside>
-💡 The MemoryVectorStore is ephemeral, which is why we need to set up Pinecone for our next step.
+>💡 The MemoryVectorStore is ephemeral, which is why we need to set up Pinecone for our next step.
 
-</aside>
+
 
 ### Step 2: Conversational Chat Retrieval with Pinecone
 
@@ -1065,10 +1059,9 @@ An AI agent is an autonomous entity capable of performing tasks, interacting, an
 
 ## Module Projects:
 
-<aside>
-💡 For this module, we will build **three AI agents** that will highlight how you can fuse function calling into an AI agent setup to create amazing AI apps capable of running executable code based on user inputs.
+>💡 For this module, we will build **three AI agents** that will highlight how you can fuse function calling into an AI agent setup to create amazing AI apps capable of running executable code based on user inputs.
 
-</aside>
+
 
 This sub-section will guide you through building complex AI applications with increasing levels of complexity. We'll explore integrating **LangChain with BabyAGI, AutoGPT, and the OpenAI SDK** in Node.js, focusing on creating autonomous agents that can perform tasks independently and utilize external data.
 
@@ -1125,10 +1118,9 @@ In this tutorial, we’ll create a simple AI agent that independently crafts a c
 
 This tutorial will enhance the AI agent's ability to use external data tools for an enriched culinary tour in Paris. We will also be using AutoGPT here to add a new flavor. If you want to use BabyAGI for this,  [check out the documentation](https://js.langchain.com/docs/use_cases/autonomous_agents/baby_agi#example-with-tools).
 
-<aside>
-💡 We will need the Serp API key for this tutorial. You can get yours here: [https://serpapi.com/users/sign_up?plan=free](https://serpapi.com/users/sign_up?plan=free). They have a free plan that should be okay for this tutorial.
+>💡 We will need the Serp API key for this tutorial. You can get yours here: [https://serpapi.com/users/sign_up?plan=free](https://serpapi.com/users/sign_up?plan=free). They have a free plan that should be okay for this tutorial.
 
-</aside>
+
 
 1. **Setting Up**:
     - Initialize a Node.js project and install LangChain with **`npm install @langchain/openai @langchain/community`**.
