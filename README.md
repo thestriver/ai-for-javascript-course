@@ -1,5 +1,6 @@
 # Practical AI Application Development for Javascript Developers 🤖
-An open-source course for Javascript developers to get into AI Application development with checklists, projects and demos.
+An open-source course for Javascript developers to get into AI Application development with checklists, projects, and demos.
+<p align="center">• <a href="https://thestriver.github.io/ai-for-javascript-course-site/">HTML and PDF version</a> • </p>
 
 ---
 I created this course hoping it would be an excellent guide for aspiring AI developers and a valuable resource for the wider JavaScript developer community.
