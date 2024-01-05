@@ -1,5 +1,5 @@
 # Practical AI Application Development for Javascript Developers 🤖
-An open-source course for Javascript developers to get into AI Product development with demos, roadmaps, and notebooks.
+An open-source course for Javascript developers to get into AI Application development with checklists, projects and demos.
 
 ---
 I created this course hoping it would be an excellent guide for aspiring AI developers and a valuable resource for the wider JavaScript developer community.
